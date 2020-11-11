@@ -1,0 +1,39 @@
+{
+  "name": "@fairweatherbob/superset-plugin-chart-degree-days-table",
+  "version": "0.0.1",
+  "description": "Superset Chart - Degree Days Table",
+  "sideEffects": false,
+  "main": "lib/index.js",
+  "module": "esm/index.js",
+  "files": [
+    "esm",
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fairweatherbob/superset-plugin-chart-degree-days-table.git"
+  },
+  "keywords": [
+    "superset"
+  ],
+  "author": "Superset",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/fairweatherbob/superset-plugin-chart-degree-days-table/issues"
+  },
+  "homepage": "https://github.com/fairweatherbob/superset-plugin-chart-degree-days-table#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@superset-ui/core": "^0.15.2",
+    "@superset-ui/chart-controls": "^0.15.2"
+  },
+  "peerDependencies": {
+    "react": "^16.13.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.0",
+    "jest": "^26.0.1"
+  }
+}
